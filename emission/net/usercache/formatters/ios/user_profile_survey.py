@@ -6,7 +6,7 @@ from future import standard_library
 standard_library.install_aliases()
 from builtins import *
 import logging
-import emission.net.usercache.formatters.generic.userlabel as fgl
+import emission.net.usercache.formatters.generic.usersurvey as fgl
 
 def format(entry):
     return fgl.format(entry)

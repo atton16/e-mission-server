@@ -74,9 +74,9 @@ class Entry(ecwb.WrapperBase):
             # user confirmation of the travel purpose
             "manual/purpose_confirm": "userlabel",
             # user profile survey
-            "manual/user_profile_survey": "userlabel",
+            "manual/user_profile_survey": "usersurvey",
             # post-trip confirmation survey
-            "manual/confirm_survey": "userlabel",
+            "manual/confirm_survey": "usersurvey",
             # user survey results. The survey results are a JSON blob
             "manual/survey": "survey",
             # user confirmation of the destination (unsure how this will
